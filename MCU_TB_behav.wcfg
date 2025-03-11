@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MCU_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MCU_TB" />
+            <top_module name="\$unit_otter_mcu_pipeline_template_v2_sv_3711218444 " />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,819.600 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,086.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,900.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="132"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wave_markers>
+      <marker time="900000" label="" />
+      <marker time="1679433" label="" />
+      <marker time="1700999" label="" />
+      <marker time="2089466" label="" />
+      <marker time="1970666" label="" />
+      <marker time="180600" label="" />
+   </wave_markers>
+   <wvobject fp_name="/MCU_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/intr" type="logic">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/in" type="array">
+      <obj_property name="ElementShortName">in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider26">
+      <obj_property name="label">Fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group67" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT" type="array">
+         <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/if_de_next_pc" type="array">
+         <obj_property name="ElementShortName">if_de_next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_de_next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT_PLUS_FOUR" type="array">
+         <obj_property name="ElementShortName">PC_OUT_PLUS_FOUR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT_PLUS_FOUR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT_INC" type="array">
+         <obj_property name="ElementShortName">PC_OUT_INC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT_INC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/next_pc" type="array">
+         <obj_property name="ElementShortName">next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/de_ex_inst.next_pc" type="array">
+         <obj_property name="ElementShortName">.next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_inst.next_pc" type="array">
+         <obj_property name="ElementShortName">.next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/mem_wb_inst.next_pc" type="array">
+         <obj_property name="ElementShortName">.next_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">.next_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/JALR" type="array">
+         <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_SOURCE" type="array">
+         <obj_property name="ElementShortName">PC_SOURCE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_SOURCE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ld_use_hz" type="logic">
+         <obj_property name="ElementShortName">ld_use_hz</obj_property>
+         <obj_property name="ObjectShortName">ld_use_hz</obj_property>
+      </wvobject>
+      <wvobject type="divider" fp_name="divider558">
+         <obj_property name="label">RegMUX</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/de_ex_inst.regWrite" type="logic">
+         <obj_property name="ElementShortName">.regWrite</obj_property>
+         <obj_property name="ObjectShortName">.regWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_inst.regWrite" type="logic">
+         <obj_property name="ElementShortName">.regWrite</obj_property>
+         <obj_property name="ObjectShortName">.regWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/mem_wb_inst.regWrite" type="logic">
+         <obj_property name="ElementShortName">.regWrite</obj_property>
+         <obj_property name="ObjectShortName">.regWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/EN" type="logic">
+         <obj_property name="ElementShortName">EN</obj_property>
+         <obj_property name="ObjectShortName">EN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/de_ex_inst.rf_wr_sel" type="array">
+         <obj_property name="ElementShortName">.rf_wr_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">.rf_wr_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_inst.rf_wr_sel" type="array">
+         <obj_property name="ElementShortName">.rf_wr_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">.rf_wr_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/mem_wb_inst.rf_wr_sel" type="array">
+         <obj_property name="ElementShortName">.rf_wr_sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">.rf_wr_sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/TWO" type="array">
+         <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/THREE" type="array">
+         <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/OUT" type="array">
+         <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/WA" type="array">
+         <obj_property name="ElementShortName">WA[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/de_ex_inst.rd_addr" type="array">
+         <obj_property name="ElementShortName">.rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">.rd_addr[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_inst.rd_addr" type="array">
+         <obj_property name="ElementShortName">.rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">.rd_addr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/mem_wb_inst.rd_addr" type="array">
+         <obj_property name="ElementShortName">.rd_addr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">.rd_addr[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider66">
+      <obj_property name="label">Decode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group64" type="group">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_ADDR1" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR1[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_DOUT1" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT1[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_READ1" type="logic">
+         <obj_property name="ElementShortName">MEM_READ1</obj_property>
+         <obj_property name="ObjectShortName">MEM_READ1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group65" type="group">
+      <obj_property name="label">TwoMux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group63" type="group">
+      <obj_property name="label">Decoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/REG_WRITE" type="logic">
+         <obj_property name="ElementShortName">REG_WRITE</obj_property>
+         <obj_property name="ObjectShortName">REG_WRITE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/MEM_WE2" type="logic">
+         <obj_property name="ElementShortName">MEM_WE2</obj_property>
+         <obj_property name="ObjectShortName">MEM_WE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/MEM_RDEN2" type="logic">
+         <obj_property name="ElementShortName">MEM_RDEN2</obj_property>
+         <obj_property name="ObjectShortName">MEM_RDEN2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/ALU_FUN" type="array">
+         <obj_property name="ElementShortName">ALU_FUN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_FUN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/ALU_SRCA" type="logic">
+         <obj_property name="ElementShortName">ALU_SRCA</obj_property>
+         <obj_property name="ObjectShortName">ALU_SRCA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/ALU_SRCB" type="array">
+         <obj_property name="ElementShortName">ALU_SRCB[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_SRCB[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_DCDR/RF_WR_SEL" type="array">
+         <obj_property name="ElementShortName">RF_WR_SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">RF_WR_SEL[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group41" type="group">
+      <obj_property name="label">Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT" type="array">
+         <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ld_use_hz" type="logic">
+         <obj_property name="ElementShortName">ld_use_hz</obj_property>
+         <obj_property name="ObjectShortName">ld_use_hz</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram" type="array">
+         <obj_property name="ElementShortName">ram[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ram[0:31][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ram[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT" type="array">
+         <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ADR1" type="array">
+         <obj_property name="ElementShortName">ADR1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ADR1[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/ADR2" type="array">
+         <obj_property name="ElementShortName">ADR2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ADR2[4:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/WD" type="array">
+         <obj_property name="ElementShortName">WD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/RS1" type="array">
+         <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/de_ex_rs1" type="array">
+         <obj_property name="ElementShortName">de_ex_rs1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">de_ex_rs1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/RS2" type="array">
+         <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/de_ex_rs2" type="array">
+         <obj_property name="ElementShortName">de_ex_rs2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">de_ex_rs2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_rs2" type="array">
+         <obj_property name="ElementShortName">ex_mem_rs2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_rs2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/EN" type="logic">
+         <obj_property name="ElementShortName">EN</obj_property>
+         <obj_property name="ObjectShortName">EN</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group48" type="group">
+      <obj_property name="label">IG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/ImmediateGenerator/U_TYPE" type="array">
+         <obj_property name="ElementShortName">U_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">U_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ImmediateGenerator/I_TYPE" type="array">
+         <obj_property name="ElementShortName">I_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ImmediateGenerator/S_TYPE" type="array">
+         <obj_property name="ElementShortName">S_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ImmediateGenerator/B_TYPE" type="array">
+         <obj_property name="ElementShortName">B_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ImmediateGenerator/J_TYPE" type="array">
+         <obj_property name="ElementShortName">J_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">J_TYPE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">Muxs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group478" type="group">
+         <obj_property name="label">Two Mux</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MCU_TB/UUT/TwoMux/SEL" type="logic">
+            <obj_property name="ElementShortName">SEL</obj_property>
+            <obj_property name="ObjectShortName">SEL</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/TwoMux/ZERO" type="array">
+            <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/TwoMux/ONE" type="array">
+            <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/TwoMux/OUT" type="array">
+            <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group479" type="group">
+         <obj_property name="label">FourMux</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/MCU_TB/UUT/FourMux/SEL" type="array">
+            <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+            <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/FourMux/ZERO" type="array">
+            <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/FourMux/ONE" type="array">
+            <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/FourMux/TWO" type="array">
+            <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+            <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/FourMux/THREE" type="array">
+            <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+            <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/FourMux/OUT" type="array">
+            <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_DOUT1" type="array">
+            <obj_property name="ElementShortName">MEM_DOUT1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">MEM_DOUT1[31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider6269">
+      <obj_property name="label">Hazard</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT" type="array">
+      <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_WRITE" type="logic">
+      <obj_property name="ElementShortName">PC_WRITE</obj_property>
+      <obj_property name="ObjectShortName">PC_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/HazardUnit/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/hold_flush" type="logic">
+      <obj_property name="ElementShortName">hold_flush</obj_property>
+      <obj_property name="ObjectShortName">hold_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PCMUX/PC_SOURCE" type="array">
+      <obj_property name="ElementShortName">PC_SOURCE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_SOURCE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/if_de_pc" type="array">
+      <obj_property name="ElementShortName">if_de_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_de_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/de_ex_IR" type="array">
+      <obj_property name="ElementShortName">de_ex_IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">de_ex_IR[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider42">
+      <obj_property name="label">Execute</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group59" type="group">
+      <obj_property name="label">BAG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/RS1" type="array">
+         <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/I_TYPE" type="array">
+         <obj_property name="ElementShortName">I_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/J_TYPE" type="array">
+         <obj_property name="ElementShortName">J_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">J_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/B_TYPE" type="array">
+         <obj_property name="ElementShortName">B_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/JAL" type="array">
+         <obj_property name="ElementShortName">JAL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">JAL[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/JALR" type="array">
+         <obj_property name="ElementShortName">JALR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">JALR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BAG/BRANCH" type="array">
+         <obj_property name="ElementShortName">BRANCH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BRANCH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group66" type="group">
+      <obj_property name="label">BCG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BCG/RS1" type="array">
+         <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BCG/RS2" type="array">
+         <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BCG/IR_30" type="logic">
+         <obj_property name="ElementShortName">IR_30</obj_property>
+         <obj_property name="ObjectShortName">IR_30</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BCG/IR_OPCODE" type="array">
+         <obj_property name="ElementShortName">IR_OPCODE[6:0]</obj_property>
+         <obj_property name="ObjectShortName">IR_OPCODE[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BCG/IR_FUNCT" type="array">
+         <obj_property name="ElementShortName">IR_FUNCT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IR_FUNCT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_BCG/PC_SOURCE" type="array">
+         <obj_property name="ElementShortName">PC_SOURCE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_SOURCE[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2479" type="group">
+      <obj_property name="label">Fwrd Mux 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux1/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux1/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux1/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux1/TWO" type="array">
+         <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux1/THREE" type="array">
+         <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux1/OUT" type="array">
+         <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2472" type="group">
+      <obj_property name="label">Fwrd Mux2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux2/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux2/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux2/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux2/TWO" type="array">
+         <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux2/THREE" type="array">
+         <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FwrdMux2/OUT" type="array">
+         <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2760" type="group">
+      <obj_property name="label">Offset Mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group756" type="group">
+      <obj_property name="label">TwoMux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/TwoMux/SEL" type="logic">
+         <obj_property name="ElementShortName">SEL</obj_property>
+         <obj_property name="ObjectShortName">SEL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/TwoMux/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/TwoMux/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/TwoMux/OUT" type="array">
+         <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group763" type="group">
+      <obj_property name="label">FourMux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/FourMux/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FourMux/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FourMux/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FourMux/TWO" type="array">
+         <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FourMux/THREE" type="array">
+         <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/FourMux/OUT" type="array">
+         <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group71" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_ALU/SRC_A" type="array">
+         <obj_property name="ElementShortName">SRC_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SRC_A[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_ALU/SRC_B" type="array">
+         <obj_property name="ElementShortName">SRC_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SRC_B[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_ALU/ALU_FUN" type="array">
+         <obj_property name="ElementShortName">ALU_FUN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_FUN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_ALU/RESULT" type="array">
+         <obj_property name="ElementShortName">RESULT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RESULT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_aluRes" type="array">
+         <obj_property name="ElementShortName">ex_mem_aluRes[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_aluRes[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/OTTER_PC/PC_OUT" type="array">
+      <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider72">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group81" type="group">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_ADDR2" type="array">
+         <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_DIN2" type="array">
+         <obj_property name="ElementShortName">MEM_DIN2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DIN2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_WRITE2" type="logic">
+         <obj_property name="ElementShortName">MEM_WRITE2</obj_property>
+         <obj_property name="ObjectShortName">MEM_WRITE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_READ2" type="logic">
+         <obj_property name="ElementShortName">MEM_READ2</obj_property>
+         <obj_property name="ObjectShortName">MEM_READ2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_inst.memRead2" type="logic">
+         <obj_property name="ElementShortName">.memRead2</obj_property>
+         <obj_property name="ObjectShortName">.memRead2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_SIZE" type="array">
+         <obj_property name="ElementShortName">MEM_SIZE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_SIZE[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/IO_IN" type="array">
+         <obj_property name="ElementShortName">IO_IN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IO_IN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/IO_WR" type="logic">
+         <obj_property name="ElementShortName">IO_WR</obj_property>
+         <obj_property name="ObjectShortName">IO_WR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_size" type="array">
+         <obj_property name="ElementShortName">ex_mem_size[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_size[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/ex_mem_sign" type="logic">
+         <obj_property name="ElementShortName">ex_mem_sign</obj_property>
+         <obj_property name="ObjectShortName">ex_mem_sign</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider82">
+      <obj_property name="label">Write Back</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group84" type="group">
+      <obj_property name="label">Memory Out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_mem_byte/MEM_DOUT2" type="array">
+         <obj_property name="ElementShortName">MEM_DOUT2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_DOUT2[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group94" type="group">
+      <obj_property name="label">Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/WA" type="array">
+         <obj_property name="ElementShortName">WA[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/WD" type="array">
+         <obj_property name="ElementShortName">WD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/REG_FILE/EN" type="logic">
+         <obj_property name="ElementShortName">EN</obj_property>
+         <obj_property name="ObjectShortName">EN</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group95" type="group">
+      <obj_property name="label">Reg Mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/SEL" type="array">
+         <obj_property name="ElementShortName">SEL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">SEL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/ZERO" type="array">
+         <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/ONE" type="array">
+         <obj_property name="ElementShortName">ONE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ONE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/TWO" type="array">
+         <obj_property name="ElementShortName">TWO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">TWO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/THREE" type="array">
+         <obj_property name="ElementShortName">THREE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">THREE[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/MCU_TB/UUT/OTTER_REG_MUX/OUT" type="array">
+         <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider101">
+      <obj_property name="label">IOBUS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/IOBUS_IN" type="array">
+      <obj_property name="ElementShortName">IOBUS_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/IOBUS_OUT" type="array">
+      <obj_property name="ElementShortName">IOBUS_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_OUT[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/IOBUS_ADDR" type="array">
+      <obj_property name="ElementShortName">IOBUS_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MCU_TB/UUT/IOBUS_WR" type="logic">
+      <obj_property name="ElementShortName">IOBUS_WR</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_WR</obj_property>
+   </wvobject>
+</wave_config>
